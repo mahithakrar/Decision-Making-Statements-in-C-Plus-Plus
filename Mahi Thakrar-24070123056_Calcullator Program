@@ -1,0 +1,68 @@
+#include <iostream>
+using namespace std;
+int main() {
+    char oper;
+    float num1,num2;
+    cout<<"Enter an operator(+,-,/,*)"<<endl;
+    cin>>oper;
+    cout<<"Enter the first number:"<<endl;
+    cin>>num1;
+    cout<<"Enter the second number:"<<endl;
+    cin>>num2;
+    
+    switch(oper){
+        case '+' :
+        cout<<num1<<"+"<<num2<<"="<<num1 + num2<<endl;
+        break;
+        
+        case '-' :
+        cout<<num1<<"-"<<num2<<"="<<num1 - num2<<endl;
+        break;
+        
+        case '/' :
+        cout<<num1<<"/"<<num2<<"="<<num1 / num2<<endl;
+        break;
+        
+        case '*' :
+        cout<<num1<<"*"<<num2<<"="<<num1 * num2<<endl;
+        break;
+        
+        default:
+        cout<<"ERROR!!!The operator is not valid"<<endl;
+        break;
+    }
+
+    return 0;
+}
+//Enter an operator(+,-,/,*)
+//+
+//Enter the first number:
+//15
+//Enter the second number:
+//20
+//15+20=35
+
+
+//Enter an operator(+,-,/,*)
+//-
+//Enter the first number:
+//25
+//Enter the second number:
+//60
+//25-60=-35
+
+// Enter an operator(+,-,/,*)
+// /
+// Enter the first number:
+// 40
+// Enter the second number:
+// 20
+// 40/20=2
+
+// Enter an operator(+,-,/,*)
+// *
+// Enter the first number:
+// 15
+// Enter the second number:
+// 5
+// 15*5=75
