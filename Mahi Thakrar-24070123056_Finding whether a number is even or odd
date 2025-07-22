@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int num;
+    cout<<"Enter any number:"<<endl;
+    cin>>num;
+    if(num%2==0){
+        cout<<"The given number "<<num<<" is an even number"<<endl;
+    }
+    else{
+        cout<<"The given number "<<num<<" is an odd number"<<endl;
+    }
+
+    return 0;
+}
+
+
+//Enter any number:
+//27
+//The given number 27 is an odd number
+
+//Enter any number:
+//12
+//The given number 12 is an even number
