@@ -1,0 +1,49 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int choice;
+    cout<<"1.Dancer"<<endl<<"2.Engineer"<<endl<<"3.Doctor"<<endl<<"4.Singer"<<endl<<"5.Housewife"<<endl<<"6.Others"<<endl;
+    cout<<"Enter your choice:"<<endl;
+    cin>>choice;
+    switch(choice){
+        case 1:
+        cout<<"Dancer";
+        break;
+        
+        case 2:
+        cout<<"Engineer";
+        break;
+        
+        case 3:
+        cout<<"Doctor";
+        break;
+        
+        case 4:
+        cout<<"Singer";
+        break;
+        
+        case 5:
+        cout<<"Housewife";
+        break;
+        
+        case 6:
+        cout<<"Others";
+        break;
+        
+        default:
+        cout<<"The choice you have selected is not valid";
+        break;
+    }
+
+    return 0;
+}
+
+//1.Dancer
+//2.Engineer
+//3.Doctor
+//4.Singer
+//5.Housewife
+//6.Others
+//Enter your profession:
+//5
+//Housewife
